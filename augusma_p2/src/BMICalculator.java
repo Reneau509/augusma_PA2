@@ -38,6 +38,7 @@ public class BMICalculator
                 "Overweight = 25–29.9 \n" +
                 "Obesity = BMI of 30 or greater");
     }
+    
     public void readUnitType()
     {
         System.out.println("Enter unit type: ");
@@ -156,13 +157,5 @@ public class BMICalculator
         displayBMISpecs();
         System.out.println("\nYour BMI:");
         System.out.println("BMI: " + this.Bmi + ", BMI Category: " + this.getBmiCategory());
-    }
-
-    public static void main(String[] args)
-    {
-        BMICalculator app = new BMICalculator();
-        app.readUserData();
-        app.calculateBMI();
-        app.displayBmi();
     }
 }
