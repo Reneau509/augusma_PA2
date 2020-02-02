@@ -15,7 +15,7 @@ public class Application
         number = input.next();
 
         System.out.println("Your number entered: " + number);
-        System.out.println("The encrypted number: " + Encrypt.encrypt(number));
-        System.out.println("The decrypted number: " + Decrypt.decrypt(number));
+        System.out.println("The encrypted number: " + Encrypter.encrypt(number));
+        System.out.println("The decrypted number: " + Decrypter.decrypt(number));
     }
 }
